@@ -118,7 +118,6 @@
     top: 50%;
     transform: translateY(-50%);
     transition: 0.4s;
-    
     opacity: 0;
 
 }
@@ -129,3 +128,260 @@
 
 }
 /* banner section end */
+
+
+
+/* work section start  */
+
+
+.work-section{
+   background-color: #F4F6FC;
+   padding: 128px 0;
+}
+.work-section .text-Part h2{
+    color: #282938 ;
+    font-size: 48px ;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif;
+    width: 405px;
+}
+.work-section .text-Part p{
+   margin: 16px 0;
+   font-size: 16px ;
+   color: rgb(40, 41, 56, 0.70);
+   font-weight: 400 ;
+   font-family: "Poppins", sans-serif;
+   width: 405px;
+
+}
+.work-section .text-Part a{
+   color: #2405F2;
+   font-size: 18px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   position: relative;
+}
+.work-section .text-Part i{
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.4s;
+    opacity: 0;
+}
+.work-section .text-Part a:hover i{
+    right: -45px;
+    opacity: 1;
+    
+}
+.work-section .card-Part .card{
+   border: none;
+   background-color: transparent;
+   width: 328px;
+}
+
+.work-section .card-Part h6{
+   color: #282938;
+   font-size: 32px ;
+   font-weight: 600 ;
+   margin: 16px 0 8px 0;
+   font-family: "Poppins", sans-serif;
+}
+.work-section .card-Part p{
+   color: #282938;
+   font-size: 16px ;
+   font-weight: 400 ;
+   width: 303;
+   line-height: 28px;
+   font-family: "Poppins", sans-serif;
+}
+
+/* work section end  */
+
+/* work section start  */
+
+.project{
+   padding: 128px 0;
+}
+.project .top-part{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.project .top-part h3{
+    color: #282938;
+   font-size: 48px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+}
+.project .top-part a{
+   color: #282938;
+   font-size: 16px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   position: relative;
+}
+.project .top-part i{
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.4s;
+    opacity: 0;
+}
+.project .top-part a:hover i{
+    right: -45px;
+    opacity: 1;
+    
+}
+
+.project .img-Pat{
+   margin-top: 64px;
+}
+.project .img-Left .webflow{
+   width: 800px;
+   height: 600px;
+   overflow: hidden;
+   position: relative;
+   z-index: 1;
+}
+.project .img-Left .webflow img{
+   width: 100%;
+   height: 100%;
+
+}
+
+.project .img-Left .webflow .overlay{
+   width: 370px;
+   height: 600px;
+   position: absolute;
+   background-color: rgba(28, 30, 83, 0.80);
+   left: 0;
+   bottom: 0;
+   content: "";
+   position: absolute;
+   transition: 0.6s;
+}
+
+
+.project .img-Left .webflow:hover .overlay{
+   width: 800px;
+   height: 600px;
+}
+.project .img-Left .webflow .overlay h3{
+    color: #fff;
+   font-size: 24px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   width: 313px;
+}
+.project .img-Left .webflow .overlay p{
+    color: rgba(255, 255, 255,0.80);
+   font-size: 16px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   width: 293px;
+   margin: 16px 0 40px 0;
+}
+.project .img-Left .webflow .overlay a{
+   color: #FCD980;
+   font-size: 16px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   position: relative;
+}
+.project .img-Left .webflow .overlay i{
+   position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.4s;
+    opacity: 0;
+}
+.project .img-Left .webflow .overlay a:hover i{
+    right: -45px;
+    opacity: 1;
+
+}
+.project .img-Left .webflow .overlay .text{
+  margin-top: 312px;
+   margin-left: 0px;
+   opacity: 0;
+   transition: 0.4s;
+}
+.project .img-Left .webflow .overlay:hover .text{
+   margin-top: 312px;
+   margin-left: 48px;
+   opacity: 1;
+}
+.project .unisaas{
+   width: 405px;
+   height: 284px;
+   overflow: hidden;
+   position: relative;
+   z-index: 1;
+}
+.project .unisaas img{
+   width: 100%;
+   height: 100%;
+}
+
+.project .unisaas .overlay{
+   width: 0%;
+   height: 100%;
+   position: absolute;
+   background-color:transparent;
+   left: 0;
+   bottom: 0;
+   content: "";
+   position: absolute;
+   transition: 0.6s;
+}
+.project .unisaas:hover .overlay{
+   background-color:  rgba(28, 30, 83, 0.80);
+   width: 100%;
+}
+.project .unisaas .overlay .unisaas-text{
+   margin-top: 129px;
+   margin-left: 0px;
+   opacity: 0;
+   transition: 0.4s;
+}
+.project .unisaas .overlay:hover .unisaas-text{
+   margin-left: 56px;
+   opacity: 1;
+}
+.project .unisaas h4{
+    color: #fff;
+   font-size: 24px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   width: 313px;
+}
+.project .unisaas .unisaas-text a{
+   color: #FCD980;
+   font-size: 16px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   position: relative;
+}
+.project .unisaas .unisaas-text i{
+   position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.4s;
+    opacity: 0;
+}
+.project .unisaas .unisaas-text a:hover i{
+    right: -45px;
+    opacity: 1;
+}
+.project .row-Img{
+   margin-top: 32px;
+}
+.project .row-Img img{
+   width: 405px;
+   height: 284px;
+}
+/* work section end  */
