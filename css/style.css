@@ -212,7 +212,7 @@
 
 /* work section end  */
 
-/* work section start  */
+/* project section start  */
 
 .project{
    padding: 128px 0;
@@ -398,7 +398,7 @@
    width: 405px;
    height: 284px;
 }
-/* work section end  */
+/* project section end  */
 
 /* problem solve section  start */
 
@@ -543,8 +543,196 @@
  }
  /* Frequently section end */
 
+/* startup section start */
 
+.startup{
+   padding-bottom: 128px;
+}
+.startup .left-part .left-img{
+   width: 660px;
+   height: 550px;
+   overflow: hidden;
+   position: relative;
 
+}
+.startup .left-part .left-img .overlay{
+   width: 660px;
+   height: 550px;
+   background-color:  rgba(28, 30, 83, 0.7);
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   content: "";
+}
+.startup .left-part .left-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.startup .left-part .left-img .overlay .contant-part{
+   margin: 96px 0 0 96px ;
+
+}
+.startup .left-part .overlay h6{
+    color: white;
+   font-size:54px ;
+   font-weight: 600 ;
+   line-height: 64px;
+   font-family: "Poppins", sans-serif;
+   width: 464px;
+   margin-bottom: 24px;
+
+}
+.startup .left-part .overlay p{
+   color: white;
+   font-size:16px ;
+   font-weight: 600 ;
+   line-height: 28px;
+   font-family: "Poppins", sans-serif;
+   width: 464px;
+}
+.startup .right-part{
+   background-color: #1C1E53;
+   width: 660px;
+   height: 550px;
+}
+.startup .right-part .fOrm{
+   padding: 60px 96px;
+}
+.startup .right-part .fOrm h6{
+   color: white;
+   font-size:32px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+}
+.startup .right-part .fOrm p{
+   color: #F4F6FC;
+   font-size:16px ;
+   font-weight: 600 ;
+   line-height: 28px;
+   font-family: "Poppins", sans-serif;
+   width: 432px;
+   margin-top: 16px;
+   margin-bottom: 40px;
+}
+.startup .right-part .form{
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+.startup .right-part .form input{
+   padding: 12px 30px;
+   border-radius: 8px;
+   background-color: transparent;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   color: white;
+}
+.startup .right-part .form input::placeholder{
+   color: gray;
+}
+.startup .right-part .form .butoN{
+   color: black ;
+    font-size: 18px ;
+    font-weight: 600 ;
+    background-color: #FCD980 ;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 48px ;
+    border-radius: 41px ;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    text-align: center;
+    margin-top: 20px;
+}
+.startup .right-part .form .butoN:hover{
+      border-color: #FCD980 ;
+    background-color: transparent;
+    color: #FCD980;
+}
+.startup .right-part .form .foRm-button{
+   color: #fff;
+   font-size: 16px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   position: relative;
+   text-align: center;
+   width: 200px;
+   margin-left: 100px;
+}
+.startup .right-part .form .foRm-button i{
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.4s;
+    opacity: 0;
+}
+.startup .right-part .form .foRm-button:hover i{
+    right: -45px;
+    opacity: 1;
+
+}
+
+/* startup section end  */
+
+/* blog section start  */
+
+.blog{
+   padding: 128px 0;
+}
+.blog h6{
+   margin-bottom: 64px;
+    color: black;
+   font-size: 48px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+}
+.blog .card{
+   border: none;
+}
+.blog .card .card-body{
+   padding: 0;
+}
+.blog .card .card-body span{
+   margin-top: 16px !important;
+}
+.blog .card .card-body h5{
+  color: #282938;
+   font-size: 24px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   line-height: 36px;
+   margin-top: 16px;
+   margin-bottom: 16px;
+}
+
+.blog .card .card-body .card-text{
+   color: rgba(40, 41, 56. 0.7);
+   font-size: 16px ;
+   font-weight: 400 ;
+   font-family: "Poppins", sans-serif;
+   line-height: 28px;
+   margin-bottom: 32px !important;
+}
+.blog .card .card-body  a{
+   color: #282938;
+   font-size: 16px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   position: relative;
+}
+.blog .card .card-body  i{
+   position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.4s;
+    opacity: 0;
+}
+.blog .card .card-body  a:hover i{
+   right: -45px;
+    opacity: 1;
+}
+/* blog section end */
 
 
 
@@ -616,17 +804,22 @@
 
 .banner h1{
     font-size: 25px;
-    width: 300px;
+    width: 320px;
     line-height: 40px;
     text-align: center;
-    margin-left:-3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .banner-texT{
+   align-items: center;
+   text-align: center;
 }
 .banner p{
    font-size: 12px;
     line-height: 18px;
-    width: 250px;
+    width: 300px;
     text-align: center;
-    margin-left: 8%;
 }
 .banner-button{
     font-size: 10px ;
@@ -645,20 +838,27 @@
    background-color: #F4F6FC;
    padding: 100px 0;
 }
+.work-section .rOw{
+   text-align: center;
+}
+.work-section .text-Part{
+   text-align: center;
+}
 
 .work-section .text-Part h2{
     font-size: 28px ;
+    width: 100%;
 }
 .work-section .text-Part p{
    font-size: 12px ;
-   width: 250px;
+   width: 100%;
 
 }
 .work-section .text-Part a{
    font-size: 12px;
 }
 .work-section .card-Part .card{
-   width: 300px;
+   width: 100%;
    margin-top: 30px;
 }
 
@@ -681,7 +881,7 @@
  font-size: 12px ;
 }
 .project .img-Left .webflow{
-   width: 300px;
+   width: 100%;
    height: 250px;
    margin-bottom: 20px;
 }
@@ -699,7 +899,7 @@
 
 
 .project .img-Left .webflow:hover .overlay{
-   width: 300px;
+   width: 100%;
    height: 250px;
 }
 .project .img-Left .webflow .overlay h3{
@@ -723,7 +923,7 @@
    opacity: 1;
 }
 .project .unisaas{
-   width: 300px;
+   width: 100%;
    height: 250px;
 }
 .project .unisaas .overlay .unisaas-text{
@@ -744,6 +944,10 @@
    width: 300px;
    height: 250px;
 }
+.project .row-Img img{
+   width: 100%;
+   height: 284px;
+}
 
 .problem-solve{
    padding: 100px 0;
@@ -760,7 +964,7 @@
    font-size: 12px ;
 }
 .problem-solve .cards-section .card{
-    width: 300px;
+    width: 100%;
     margin-bottom: 20px;
 }
 .problem-solve .cards-section .card .card-body{
@@ -782,19 +986,19 @@
 }
 .clients-about .Left-text h4{
    font-size: 28px ;
-   width: 300px;
+   width: 100%;
    line-height: 34px;
    text-align: center;
 }
 .clients-about .Left-text p{
    font-size: 12px ;
-   width: 300px ;
+   width: 100% ;
    line-height: 18px;
    text-align: center;
 }
 .clients-about .Right-text p{
    font-size: 25px ;
-   width: 300;
+   width: 100%;
    line-height: 38px;
    text-align: center;
 }
@@ -809,7 +1013,7 @@
  }
  .frequently .Left-part h6{
    font-size: 28px ;
-   width: 300;
+   width: 100%;
    line-height: 46px;
    text-align: center;
  }
