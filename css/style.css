@@ -34,11 +34,25 @@
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     transition: 0.4s;
+    position: relative;
 
     
  }
  nav .nav-link:hover{
     color: #fff;
+ }
+ nav .nav-link::after{
+   width: 0%;
+   height: 2px;
+   position: absolute;
+   background-color: white;
+   left: 0px;
+   bottom: 7px;
+   content: "";
+   transition: 0.4s;
+ }
+ nav .nav-link:hover::after{
+   width: 100%;
  }
  nav button{
     margin-left: 32px ;
@@ -385,3 +399,141 @@
    height: 284px;
 }
 /* work section end  */
+
+/* problem solve section  start */
+
+.problem-solve{
+   padding: 128px 0;
+   background-color: #F4F6FC;
+}
+.problem-solve .top-section h4{
+   color: #282938;
+   font-size: 48px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   width: 660px;
+   line-height: 64px;
+   margin-top: 12px;
+   margin-bottom: 47px;
+}
+
+.problem-solve .top-section span{
+   color: #282938;
+   font-size: 16px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+}
+
+.problem-solve .cards-section .card{
+    width: 420px;
+    border: none;
+    background-color: white;
+    border-radius: 0;
+    transition:transform 0.5s ease;
+}
+.problem-solve .cards-section .card:hover{
+   transform: translateY(-10px);
+   box-shadow: 0 10px 25px rgba(36, 5, 242, 0.3);
+}
+.problem-solve .cards-section .card .card-body{
+   padding: 58px 48px;
+}
+
+.problem-solve .cards-section .card h6{
+    color: #282938;
+   font-size: 24px ;
+   font-weight: 600 ;
+   margin: 12px 0 22px 0;
+   font-family: "Poppins", sans-serif;
+}
+
+.problem-solve .cards-section .card p{
+   color: rgba(40, 41, 56, 0.70);
+   font-size: 16px ;
+   font-weight: 400 ;
+   width: 399;
+   line-height: 28px;
+   font-family: "Poppins", sans-serif;
+}
+
+
+/* problem solve section end */
+
+ /* client about section start  */
+
+.clients-about{
+   padding: 130px 0;
+   background-color: rgba(244, 246, 252, 0.5);
+}
+.clients-about .Left-text h4{
+    color: #282938;
+   font-size: 38px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+   width: 327px;
+   line-height: 54px;
+   margin-bottom: 16px;
+}
+.clients-about .Left-text p{
+   color: rgba(40, 41, 56, 0.70);
+   font-size: 16px ;
+   font-weight: 400 ;
+   width: 327px ;
+   line-height: 28px;
+   font-family: "Poppins", sans-serif;
+}
+.clients-about .Right-text p{
+   color: #282938;
+   font-size: 32px ;
+   font-weight: 400 ;
+   width: 843;
+   line-height: 48px;
+   font-family: "Poppins", sans-serif;
+}
+.clients-about .Right-text .img-clicent{
+   margin-top: 51px;
+   align-items: center;
+}
+.clients-about .Right-text .img-clicent h6{
+   color: #282938;
+   font-size: 18px ;
+   font-weight: 500 ;
+   font-family: "Poppins", sans-serif;
+}
+.clients-about .Right-text .img-clicent span{
+   color: #282938;
+   font-size: 12px ;
+   font-weight: 500 ;
+   font-family: "Poppins", sans-serif;
+}
+
+
+
+ /* client about section end */
+
+ /* Frequently section start */
+
+ .frequently{
+   padding:128px 0;
+ }
+ .frequently .Left-part h6{
+   color: #282938;
+   font-size: 38px ;
+   font-weight: 600 ;
+   width: 328;
+   line-height: 56px;
+   font-family: "Poppins", sans-serif;
+ }
+ .frequently .Left-part a{
+    color: rgba(36, 5, 242, 0.80);
+   font-size: 18px ;
+   font-weight: 500 ;
+   line-height: 32px;
+   font-family: "Poppins", sans-serif;
+   margin-top: 16px;
+ }
+ .frequently .Left-part a:hover{
+   color: #2405F2;
+   cursor: pointer;
+ }
+ /* Frequently section end */
