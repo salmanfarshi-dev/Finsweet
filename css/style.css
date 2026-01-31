@@ -894,6 +894,11 @@
 
 
 @media (min-width:320px) and (max-width:575.99px){
+
+   .navbar-toggler{
+   color: gray;
+   background-color: white;
+ }
    .banner{
     padding-top: 70px;
     padding-bottom: 90px;
