@@ -35,8 +35,10 @@
     font-family: "Poppins", sans-serif;
     transition: 0.4s;
     position: relative;
-
-    
+ }
+ .navbar-toggler{
+   color: gray;
+   background-color: white;
  }
  nav .nav-link:hover{
     color: #fff;
