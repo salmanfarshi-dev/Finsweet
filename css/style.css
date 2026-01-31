@@ -54,7 +54,7 @@
  nav .nav-link:hover::after{
    width: 100%;
  }
- nav button{
+ nav .btn{
     margin-left: 32px ;
     color: #fff !important;
     font-size: 16px !important;
@@ -66,7 +66,7 @@
     transition: 0.4s;
 
  }
- nav button:hover{
+ nav .btn:hover{
     background-color: #FCD980 !important;
     color: black !important;
  }
@@ -736,8 +736,103 @@
 
 
 
+/* contact section start  */
+
+.contact{
+   background-color: #1C1E53;
+   padding-top: 100px;
+   padding-bottom: 95px;
+   position: relative;
+   
+}
+
+.contact .left-PArt p{
+   margin-top: 22px;
+   color: rgba(255, 255, 255, 0.8);
+   font-size: 16px ;
+   font-weight: 500 ;
+   font-family: "Poppins", sans-serif;
+   line-height: 28px;
+   width: 399px;
+}
+.contact .left-PArt .bottom-Part{
+   background-color: #FCD980;
+   bottom: 0px;
+   position: absolute;
+}
+.contact .left-PArt .con-num{
+   display: flex;
+   gap: 50px;
+   padding: 18px 160px 18px 37px;
+}
+.contact .left-PArt .bottom-Part h6{
+    color: #282938;
+   font-size: 18px ;
+   font-weight: 500 ;
+   font-family:"Poppins", sans-serif;
+}
+.contact .left-PArt .bottom-Part span{
+     color: rgba(40, 41, 56, 0.8);
+   font-size: 16px ;
+   font-weight: 400 ;
+   font-family:"Poppins", sans-serif;
+}
+
+.contact .Right-Part h5{
+   color: white;
+   font-size: 48px ;
+   font-weight: 600 ;
+   font-family: "Poppins", sans-serif;
+
+}
+.contact .Right-Part p{
+     color: rgba(255, 255, 255, 0.8);
+   font-size: 16px ;
+   font-weight: 400 ;
+   font-family: "Poppins", sans-serif;
+   line-height: 28px;
+   width: 399px;
+   margin: 14px 0 28px 0;
+}
+.contact .Right-Part .icons i{
+   gap: 27px;
+}
+
+/* contact section end  */
 
 
+/* copy right section start  */
+.copy-right{
+   padding: 32px 0;
+   background-color: #fff;
+}
+
+.copy-right .bottom{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.copy-right .bottom p{
+   color: #282938;
+    font-size: 16px ;
+   font-weight: 500 ;
+   font-family: "Poppins", sans-serif;
+}
+.copy-right .bottom .menu-part ul{
+   display: flex;
+   gap: 32px;
+}
+.copy-right .bottom .menu-part  ul li a{
+     color: #282938;
+    font-size: 16px ;
+   font-weight: 500 ;
+   font-family: "Poppins", sans-serif;
+   transition: 0.4s;
+}
+.copy-right .bottom .menu-part  ul li:hover a{
+   color: #2405F2;
+}
+/* copy right section end */
 
 
 
@@ -804,7 +899,7 @@
 
 .banner h1{
     font-size: 25px;
-    width: 320px;
+    width: 100%;
     line-height: 40px;
     text-align: center;
     display: flex;
@@ -818,7 +913,7 @@
 .banner p{
    font-size: 12px;
     line-height: 18px;
-    width: 300px;
+    width: 100%;
     text-align: center;
 }
 .banner-button{
@@ -1025,10 +1120,116 @@
    justify-content: center;
    margin-bottom: 40px;
  }
+.startup{
+   padding-bottom: 100px;
+}
+.startup .left-part .left-img{
+   width:100%;
+   height: 300px;
 
+}
+.startup .left-part .left-img .overlay{
+   width: 100%;
+   height: 300px;
+}
+.startup .left-part .left-img .overlay .contant-part{
+   margin: 50px 0 0 10px ;
+}
+.startup .left-part .overlay h6{
+   font-size:34px ;
+   line-height: 44px;
+   width: 100%;
+   margin-bottom: 18px;
+}
+.startup .left-part .overlay p{
+   font-size:12px ;
+   line-height: 20px;
+   width: 100%;
+}
+.startup .right-part{
+   width: 100%;
+   height: 500px;
+   margin-top: 20px;
+}
+.startup .right-part .fOrm{
+   padding: 40px 16px;
+}
+.startup .right-part .fOrm h6{
+   font-size:25px ;
+}
+.startup .right-part .fOrm p{
+   font-size:12px ;
+   line-height: 20px;
+   width: 100%;
+   margin-top: 12px;
+   margin-bottom: 20px;
+}
+.startup .right-part .form{
+   gap: 12px;
+}
+.startup .right-part .form input{
+   padding: 10px 20px;
+}
+.startup .right-part .form .butoN{
+    font-size: 15px ;
+    padding: 12px 48px ;
+    margin-top: 15px;
+}
+.startup .right-part .form .foRm-button{
+   font-size: 12px ;
+   width: 100%;
+   margin-left: 0px;
+}
+.startup .right-part .form .foRm-button i{
+    display: none;
+    
+}
 
+.contact{
+   padding-top: 50px;
+   padding-bottom: 35px;
+   height: 500px;
+   
+}
+.contact .left-PArt p{
+   margin-top: 15px;
+   font-size: 12px ;
+   line-height: 20px;
+   width: 100%;
+}
+.contact .left-PArt .con-num{
+   flex-direction: column;
+   gap: 20px;
+   padding: 18px 120px 18px 37px;
+}
+.contact .Right-Part h5{
+   font-size: 30px ;
 
+}
+.contact .Right-Part p{
+   font-size: 12px ;
+   line-height: 20px;
+   width:100%;
+   margin: 12px 0 20px 0;
+}
+.contact .Right-Part .icons i{
+   gap: 20px;
+}
 
+.copy-right .bottom .menu-part{
+   display: none;
+}
+.copy-right{
+   padding: 20px 0;
+}
+
+.copy-right .bottom .text-part{
+     text-align: center;
+    width: 100%;
+}
+.copy-right .bottom p{
+    font-size: 12px ;
+}
 
 
 
