@@ -840,59 +840,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width:320px) and (max-width:575.99px){
 
    .navbar-toggler{
@@ -1190,6 +1137,10 @@
 .startup .right-part .form .foRm-button i{
     display: none;
     
+}
+.blog h6{
+   text-align: center;
+   font-size: 44px;
 }
 
 .contact{
