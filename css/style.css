@@ -35,6 +35,9 @@
     font-family: "Poppins", sans-serif;
     transition: 0.4s;
     position: relative;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
  }
  .navbar-toggler{
    color: gray;
@@ -51,7 +54,8 @@
    left: 0px;
    bottom: 7px;
    content: "";
-   transition: 0.4s;
+   transition: 0.4s
+
  }
  nav .nav-link:hover::after{
    width: 100%;
@@ -268,10 +272,10 @@
 }
 
 .project .img-Left .webflow .overlay{
-   width: 370px;
+   width: 0%;
    height: 600px;
    position: absolute;
-   background-color: rgba(28, 30, 83, 0.80);
+    background-image: linear-gradient(to top left, #1C1E53, rgba(28, 30, 83, 0.42));
    left: 0;
    bottom: 0;
    content: "";
@@ -281,8 +285,7 @@
 
 
 .project .img-Left .webflow:hover .overlay{
-   width: 800px;
-   height: 600px;
+   width: 52%;
 }
 .project .img-Left .webflow .overlay h3{
     color: #fff;
@@ -343,8 +346,8 @@
 }
 
 .project .unisaas .overlay{
-   width: 0%;
-   height: 100%;
+   width: 100%;
+   height: 0%;
    position: absolute;
    background-color:transparent;
    left: 0;
@@ -352,19 +355,21 @@
    content: "";
    position: absolute;
    transition: 0.6s;
+   background-image: linear-gradient(to top right, #1C1E53, rgba(28, 30, 83, 0.42));
+
 }
 .project .unisaas:hover .overlay{
-   background-color:  rgba(28, 30, 83, 0.80);
-   width: 100%;
+   
+   height: 100%;
 }
 .project .unisaas .overlay .unisaas-text{
    margin-top: 129px;
-   margin-left: 0px;
+   margin-left: 56px;
    opacity: 0;
    transition: 0.4s;
 }
 .project .unisaas .overlay:hover .unisaas-text{
-   margin-left: 56px;
+   
    opacity: 1;
 }
 .project .unisaas h4{
@@ -393,12 +398,30 @@
     right: -45px;
     opacity: 1;
 }
+.project .row-Img .overlay{
+   width:0%;
+   height: 100%;
+   position: absolute;
+   background-color:transparent;
+   right: 0;
+   bottom: 0;
+   content: "";
+   position: absolute;
+   transition: 0.6s;
+   background-image: linear-gradient(to bottom right, #1C1E53, rgba(28, 30, 83, 0.42));
+}
+.project .row-Img:hover .overlay{
+   width: 100%;
+}
 .project .row-Img{
    margin-top: 32px;
-}
-.project .row-Img img{
+   position: relative;
    width: 405px;
    height: 284px;
+}
+.project .row-Img img{
+   width:100%;
+   height:100%;
 }
 /* project section end  */
 
@@ -435,7 +458,7 @@
 }
 .problem-solve .cards-section .card:hover{
    transform: translateY(-10px);
-   box-shadow: 0 10px 25px rgba(36, 5, 242, 0.3);
+   box-shadow: 0 10px 25px rgba(36, 5, 242, 0.2);
 }
 .problem-solve .cards-section .card .card-body{
    padding: 58px 48px;
