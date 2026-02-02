@@ -583,7 +583,7 @@
 .startup .left-part .left-img .overlay{
    width: 660px;
    height: 550px;
-   background-color:  rgba(28, 30, 83, 0.7);
+   background-color:  rgba(28, 30, 83, 0.5);
    position: absolute;
    left: 0;
    bottom: 0;
