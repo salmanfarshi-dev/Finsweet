@@ -326,9 +326,9 @@
   margin-top: 312px;
    margin-left: 0px;
    opacity: 0;
-   transition: 0.4s;
+   transition: 0.7s;
 }
-.project .img-Left .webflow .overlay:hover .text{
+.project .img-Left .webflow:hover .text{
    margin-top: 312px;
    margin-left: 48px;
    opacity: 1;
@@ -965,7 +965,7 @@
 }
 
 .project .img-Left .webflow .overlay{
-   width: 200px;
+   width: 0%;
    height: 250px;
 }
 
@@ -975,12 +975,13 @@
    height: 250px;
 }
 .project .img-Left .webflow .overlay h3{
-   font-size: 18px ;
-   width: 250px;
+   font-size: 16px ;
+   width: 200px;
 }
 .project .img-Left .webflow .overlay p{
    font-size: 12px ;
-   width: 250px;
+   width: 200px;
+   margin: 16px 0 20px 0;
 }
 .project .img-Left .webflow .overlay a{
    font-size: 12px ;
@@ -989,7 +990,7 @@
   margin-top: 50px;
 
 }
-.project .img-Left .webflow .overlay:hover .text{
+.project .img-Left .webflow:hover .text{
    margin-top: 50px;
    margin-left: 28px;
    opacity: 1;
@@ -1000,10 +1001,6 @@
 }
 .project .unisaas .overlay .unisaas-text{
    margin-top: 100px;
-}
-.project .unisaas .overlay:hover .unisaas-text{
-   margin-left: 26px;
-
 }
 .project .unisaas h4{
    font-size: 18px ;
