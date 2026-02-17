@@ -566,6 +566,48 @@
    border-left: 0;
    border-right: 0;
  }
+ .frequently .Right-part .accordion-button{
+   font-size: 24px;
+   color: #282938;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif;
+ }
+ .frequently .Right-part .accordion-button span{
+   font-size: 24px;
+   color: #2405F2;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif;
+   margin-right: 59px;
+ }
+  .accordion-item p{
+   padding: 0 82px;
+ }
+ .frequently .accordion-button.collapsed{
+   background-color: transparent !important;
+ }
+ .frequently .accordion-button{
+   background-color: transparent !important;
+ }
+ .frequently .accordion-button:focus{
+   box-shadow: none !important;
+ }
+ .accordion-button:not(.collapsed)::after{
+   background-image: none;
+   content: "x";
+   transform: rotate(0);
+ }
+ .accordion-button::after{
+   background-image: none;
+   content: "+";
+   transform: rotate(0);
+ }
+ .frequently .accordion-item:first-child {
+    border-top: 0;
+}
+
+.frequently .accordion-item:last-child {
+    border-bottom: 0;
+}
  /* Frequently section end */
 
 /* startup section start */
@@ -574,14 +616,13 @@
    padding-bottom: 128px;
 }
 .startup .left-part .left-img{
-   width: 660px;
+
    height: 550px;
    overflow: hidden;
    position: relative;
-
 }
 .startup .left-part .left-img .overlay{
-   width: 660px;
+   width: 100%;
    height: 550px;
    background-color:  rgba(28, 30, 83, 0.5);
    position: absolute;
@@ -618,7 +659,7 @@
 }
 .startup .right-part{
    background-color: #1C1E53;
-   width: 660px;
+ 
    height: 550px;
 }
 .startup .right-part .fOrm{
