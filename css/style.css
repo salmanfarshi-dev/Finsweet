@@ -1,15 +1,10 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-
-
  *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
  }
- 
- 
  
  a{
     text-decoration: none;
@@ -18,9 +13,7 @@
     list-style: none;
  }
  
- 
  /* navbar start */
-
  nav{
     background-color: #1C1E53 ;
     padding: 31px 0px !important;
@@ -149,10 +142,7 @@
 }
 /* banner section end */
 
-
-
 /* work section start  */
-
 
 .work-section{
    background-color: #F4F6FC;
@@ -197,7 +187,7 @@
 .work-section .card-Part .card{
    border: none;
    background-color: transparent;
-   width: 328px;
+   
 }
 
 .work-section .card-Part h6{
@@ -211,7 +201,7 @@
    color: #282938;
    font-size: 16px ;
    font-weight: 400 ;
-   width: 303;
+   width: 300px;
    line-height: 28px;
    font-family: "Poppins", sans-serif;
 }
@@ -450,7 +440,7 @@
 }
 
 .problem-solve .cards-section .card{
-    width: 420px;
+    
     border: none;
     background-color: white;
     border-radius: 0;
@@ -772,7 +762,7 @@
 }
 
 .blog .card .card-body .card-text{
-   color: rgba(40, 41, 56. 0.7);
+   color: rgba(40, 41, 56, 0.7);
    font-size: 16px ;
    font-weight: 400 ;
    font-family: "Poppins", sans-serif;
@@ -914,10 +904,40 @@
     padding-top: 70px;
     padding-bottom: 90px;
 }
-
+ nav .navbar-toggler{
+   border: 1px solid white;
+   background:none;
+ }
+  .navbar-toggler:focus{
+   box-shadow: none !important;
+   border-color: gray;
+ }
+  nav .navbar-collapse{
+   background-color: #05054d;
+   text-align: center;
+   padding: 20px 10px;
+   border-radius: 10px;
+   margin-top: 20px;
+ }
+ nav button i{
+   color: white;
+   font-size: 18px;
+ }
+ .navbar-nav{
+   align-items: center;
+ }
+ nav .btn{
+    padding: 12px 25px !important;
+    margin-left:0 ;
+ }
+ nav .btn:hover{
+    background-color: transparent !important;
+    color: white !important;
+ }
 .banner h1{
     font-size: 25px;
-    width: 100%;
+    width: 300px;
+    margin: 0 auto;
     line-height: 40px;
     text-align: center;
     display: flex;
@@ -931,8 +951,11 @@
 .banner p{
    font-size: 12px;
     line-height: 18px;
-    width: 100%;
+    width: 300px;
+    margin: 0 auto;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .banner-button{
     font-size: 10px ;
@@ -942,7 +965,14 @@
     margin-left: 30px;
     font-size: 12px ;
 }
-
+.banner-button:hover{
+    border-color: #FCD980 ;
+    background-color: #FCD980 ;
+    color: #282938;
+}
+.view-button i{
+   display: none;
+}
 .banner .Righ{
    display: none;
 }
@@ -964,7 +994,8 @@
 }
 .work-section .text-Part p{
    font-size: 12px ;
-   width: 100%;
+   width: 300px;
+   margin: 0 auto;
 
 }
 .work-section .text-Part a{
@@ -974,12 +1005,18 @@
    width: 100%;
    margin-top: 30px;
 }
-
+.work-section .text-Part i{
+   display: none;
+}
 .work-section .card-Part h6{
    font-size: 25px ;
 }
 .work-section .card-Part p{
-   font-size: 12px ;
+   font-size: 12px;
+    line-height: 25px;
+   width: 200px;
+   margin: 0 auto;
+ 
 }
 .project{
    padding: 100px 0;
@@ -1059,7 +1096,15 @@
    width: 100%;
    height: 284px;
 }
-
+.project .top-part i{
+  display: none;
+}
+.project .img-Left .webflow .overlay i{
+   display: none;
+}
+.project .unisaas .unisaas-text i{
+   display: none;
+}
 .problem-solve{
    padding: 100px 0;
 }
@@ -1120,7 +1165,7 @@
    justify-content: center;
 }
 .frequently{
-   padding:100px 0;
+   padding:60px 0;
  }
  .frequently .Left-part h6{
    font-size: 28px ;
@@ -1135,6 +1180,16 @@
    display: flex;
    justify-content: center;
    margin-bottom: 40px;
+ }
+  .frequently .Right-part .accordion-button{
+   font-size: 14px;
+ }
+ .frequently .Right-part .accordion-button span{
+   font-size: 14px;
+   margin-right: 29px;
+ }
+ .accordion-item p{
+   padding: 0 0 0 40px;
  }
 .startup{
    padding-bottom: 100px;
@@ -1200,11 +1255,23 @@
     display: none;
     
 }
+
+.blog{
+   padding: 8px 0;
+}
 .blog h6{
    text-align: center;
    font-size: 44px;
 }
-
+.blog .card .card-body h5{
+   font-size: 18px ;
+   line-height: 30px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.blog .card .card-body  i{
+   display: none;
+}
 .contact{
    padding-top: 50px;
    padding-bottom: 35px;
