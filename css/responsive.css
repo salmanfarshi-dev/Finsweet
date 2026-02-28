@@ -18,12 +18,19 @@
     box-shadow: none !important;
     border-color: gray;
   }
-  nav .navbar-collapse {
+  nav .navbar-nav {
     background-color: #05054d;
     text-align: center;
     padding: 20px 10px;
     border-radius: 10px;
     margin-top: 20px;
+  }
+  nav .button{
+    text-align: center;
+    background-color: #05054d;
+    margin: -20px 0 0 0;
+    padding: 20px 0;
+    border-radius: 10px;
   }
   nav button i {
     color: white;
@@ -427,13 +434,21 @@
     box-shadow: none !important;
     border-color: gray;
   }
-  nav .navbar-collapse {
+ nav .navbar-nav {
     background-color: #05054d;
     text-align: center;
     padding: 20px 10px;
     border-radius: 10px;
     margin-top: 20px;
   }
+  nav .button{
+    text-align: center;
+    background-color: #05054d;
+    margin: -20px 0 0 0;
+    padding: 20px 0;
+    border-radius: 10px;
+  }
+
   nav button i {
     color: white;
     font-size: 18px;
@@ -844,12 +859,19 @@
     box-shadow: none !important;
     border-color: gray;
   }
-  nav .navbar-collapse {
+ nav .navbar-nav {
     background-color: #05054d;
     text-align: center;
     padding: 20px 10px;
     border-radius: 10px;
     margin-top: 20px;
+  }
+  nav .button{
+    text-align: center;
+    background-color: #05054d;
+    margin: -20px 0 0 0;
+    padding: 20px 0;
+    border-radius: 10px;
   }
   nav button i {
     color: white;
