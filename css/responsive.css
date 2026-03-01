@@ -1,7 +1,5 @@
 @media (min-width: 320px) and (max-width: 575.99px) {
-  body{
-    background-color: red;
-  }
+
   .navbar-toggler {
     color: gray;
     background-color: white;
@@ -419,6 +417,10 @@
   .copy-right .bottom p {
     font-size: 12px;
   }
+
+  html, body {
+  overflow-x: hidden;
+}
 }
 @media (min-width: 576px) and (max-width: 767.99px) {
   .navbar-toggler {
